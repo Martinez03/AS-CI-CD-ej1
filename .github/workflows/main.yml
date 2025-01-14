@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Bajar codigo
-	uses: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: Preparar entorno
-	uses: actions/setup-python@v5
+        uses: actions/setup-python@v5
       - name: Ejecutar codigo
         run: |
           pip install pytest
